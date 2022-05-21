@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+section {
+  max-width: 1240px;
+  margin: 0 auto;
+  background-color: hsl(27, 66%, 92%);
+  height: 98vh;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-conta {
+  background-color: hsl(10, 79%, 65%);
+  width: 17.8rem;
+
+  padding: 1rem;
+  border-radius: 7px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-conta h1 {
+  font-size: 1.3rem;
+}
+
+.dot {
+  width: 1rem;
+  background-color: black;
+  height: 1rem;
+  border-radius: 100%;
+}
+
+.sub-dot {
+  width: 1rem;
+  background-color: transparent;
+  height: 1rem;
+  border: 1px solid;
+  border-radius: 100%;
+  margin-left: -0.5rem;
+}
+
+p {
+  color: whitesmoke;
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-bottom: 0.2rem;
+}
+
+.data-conta {
+  background-color: hsl(33, 100%, 98%);
+  max-width: fit-content;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 7px;
+  margin-top: 1rem;
+}
+
+.graph {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 0.3rem;
+}
+
+.graphOne {
+  background-color: hsl(10, 79%, 65%);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 4px;
+}
+
+.graphTwo {
+  background-color: hsl(10, 79%, 65%);
+  width: 2rem;
+  height: 4rem;
+  border-radius: 4px;
+}
+
+.graphThree {
+  background-color: hsl(186, 34%, 60%);
+  width: 2rem;
+  height: 6rem;
+  border-radius: 4px;
+}
+
+.graphFour {
+  background-color: hsl(10, 79%, 65%);
+  width: 2rem;
+  height: 3.5rem;
+  border-radius: 4px;
+}
+
+.graphFive {
+  background-color: hsl(10, 79%, 65%);
+  width: 2rem;
+  height: 2.5rem;
+  border-radius: 4px;
+}
+
+.graphSix {
+  background-color: hsl(10, 79%, 65%);
+  width: 2rem;
+  height: 4.5rem;
+  border-radius: 4px;
+}
+
+.graphSeven {
+  background-color: hsl(10, 79%, 65%);
+  width: 2rem;
+  height: 3rem;
+  border-radius: 4px;
+}
+
+.week-days {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.4;
+  font-size: 0.8rem;
+  padding: 0.1rem;
+  margin-top: 0.2rem;
+}
+
+.line {
+  border-bottom: 1px solid black;
+  opacity: 0.1;
+  margin-top: 1rem;
+}
+
+.earning-conta {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.earning-conta p {
+  color: hsl(28, 10%, 53%);
+}
+
+.span {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+span {
+  font-size: 0.75rem;
+  font-weight: 700;
+}
